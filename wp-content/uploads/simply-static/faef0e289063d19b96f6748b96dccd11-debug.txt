@@ -1,0 +1,1313 @@
+[2024-04-21 04:17:28] [class-ss-archive-creation-job.php:83] Starting a job; no job is presently running
+[2024-04-21 04:17:28] [class-ss-archive-creation-job.php:84] Here's our task list: setup, fetch_urls, transfer_files_locally, wrapup
+[2024-04-21 04:17:28] [class-ss-archive-creation-job.php:98] Pushing first task to queue: setup
+[2024-04-21 04:17:29] [class-ss-archive-creation-job.php:132] Current task: setup
+[2024-04-21 04:17:29] [class-ss-archive-creation-job.php:149] Performing task: setup
+[2024-04-21 04:17:29] [class-ss-task.php:44] Status message: [setup] Setting up
+[2024-04-21 04:17:29] [class-ss-setup-task.php:33] Creating archive directory: /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/
+[2024-04-21 04:17:29] [class-ss-setup-task.php:79] Adding origin URL to queue: http://haoru-xue.local/
+[2024-04-21 04:17:29] [class-ss-setup-task.php:145] Adding files from directory: /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-768x433.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-768x433.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/art_logo_dark-768x768.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-768x768.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-768x432.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-768x432.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1536x865.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1536x865.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/8838058-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/8838058-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/bair-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/bair-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/UCBerkeley_wordmark_white.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/gail.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/gail.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/1710316976879-768x768.jpeg to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-768x768.jpeg
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cropped-robot-192x192.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-192x192.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/gail-150x150.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/gail-150x150.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation-768x513.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-768x513.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-1024x1024.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-1024x1024.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-768x768.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-768x768.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square-1568x1568.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1568x1568.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/bair-768x768.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/bair-768x768.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square-1536x1536.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1536x1536.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/bair-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/bair-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1568x882.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1568x882.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/8838058.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/8838058.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-300x169.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-300x169.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/mathgpt-pro-150x150.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-150x150.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-2048x1152.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-2048x1152.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/bair.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/bair.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square-1024x1024.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1024x1024.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/1710316976879-300x300.jpeg to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-300x300.jpeg
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation-1536x1027.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1536x1027.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/lmpc_cover.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/1710316976879.jpeg to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879.jpeg
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1024x576.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1024x576.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation-300x201.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-300x201.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/art_logo_dark-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/art_logo_dark.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-768x432.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-768x432.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/profile_square.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/profile_square-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cropped-robot-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/mathgpt-pro-300x300.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-300x300.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cropped-robot-180x180.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-180x180.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/art_logo_dark-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/art_logo_dark-1536x1536.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1536x1536.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-768x768.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-768x768.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/robot-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/robot-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square-768x768.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-768x768.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation-1024x685.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1024x685.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1024x576.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1024x576.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/lmpc_cover-150x150.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-150x150.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1024x577.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1024x577.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cropped-robot.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1536x864.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1536x864.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/ucsd_square-2048x2048.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-2048x2048.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cropped-robot-32x32.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-32x32.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cropped-robot-270x270.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-270x270.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1536x864.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1536x864.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/bair-1024x1024.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/bair-1024x1024.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-768x768.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-768x768.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/art_logo_dark-2048x2048.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-2048x2048.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-300x169.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-300x169.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-300x169.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-300x169.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/robot.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/robot.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/art_logo_dark-1024x1024.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1024x1024.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/1710316976879-150x150.jpeg to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-150x150.jpeg
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/cropped-robot-300x300.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-300x300.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/profile_square-150x150.png to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-150x150.png
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/mathgpt-pro.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/2024/04/lmpc_cover-300x169.gif to queue as: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-300x169.gif
+[2024-04-21 04:17:29] [class-ss-setup-task.php:150] Adding file /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/faef0e289063d19b96f6748b96dccd11-debug.txt to queue as: http://haoru-xue.local/wp-content/uploads/simply-static/faef0e289063d19b96f6748b96dccd11-debug.txt
+[2024-04-21 04:17:29] [class-ss-setup-task.php:137] File /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js exists; adding to queue as: http://haoru-xue.local/wp-content/plugins/simply-static//src/integrations/simply-cdn/assets/ssh-form-webhook.js
+[2024-04-21 04:17:29] [class-ss-archive-creation-job.php:171] We've found our next task: fetch_urls
+[2024-04-21 04:17:29] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-21 04:17:29] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-21 04:17:29] [class-ss-fetch-urls-task.php:55] Total pages: 94; Pages remaining: 94
+[2024-04-21 04:17:29] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/
+[2024-04-21 04:17:29] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 94
+[2024-04-21 04:17:29] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:29] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/66249359b581b-OXH5Ra.tmp
+[2024-04-21 04:17:29] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/?simply_static_page=1
+[2024-04-21 04:17:29] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/?simply_static_page=1
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 84449 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: text/html; charset=UTF-8
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: index.html
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/66249359b581b-OXH5Ra.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/index.html
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 68 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d82fc9-LaSHZ4.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9.png?simply_static_page=2
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9.png?simply_static_page=2
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 552949 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d82fc9-LaSHZ4.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d87567-TZJgVM.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square.png?simply_static_page=3
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square.png?simply_static_page=3
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 126713 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d87567-TZJgVM.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-768x433.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d8ab44-AyZOm7.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-768x433.png?simply_static_page=4
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-768x433.png?simply_static_page=4
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 91850 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-768x433.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d8ab44-AyZOm7.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-768x433.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d8ea97-Hurhzz.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square.png?simply_static_page=5
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square.png?simply_static_page=5
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 46137 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d8ea97-Hurhzz.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-150x150.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d9277c-9goAJR.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-150x150.png?simply_static_page=6
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-150x150.png?simply_static_page=6
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 8750 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/UCBerkeley_wordmark_white-150x150.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d9277c-9goAJR.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-150x150.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-768x768.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d95d52-mmthmV.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-768x768.png?simply_static_page=7
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-768x768.png?simply_static_page=7
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 27098 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/art_logo_dark-768x768.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d95d52-mmthmV.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/art_logo_dark-768x768.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-768x432.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d993f6-NuYtrD.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-768x432.png?simply_static_page=8
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-768x432.png?simply_static_page=8
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 85444 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-768x432.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d993f6-NuYtrD.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-768x432.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1536x865.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935d9cc57-4XaKwn.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1536x865.png?simply_static_page=9
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1536x865.png?simply_static_page=9
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 221438 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1536x865.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935d9cc57-4XaKwn.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1536x865.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/8838058-150x150.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935da018f-HxjGtx.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/8838058-150x150.png?simply_static_page=10
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/8838058-150x150.png?simply_static_page=10
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 13321 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/8838058-150x150.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935da018f-HxjGtx.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/8838058-150x150.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-150x150.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935da2b0f-FmrKlc.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/bair-150x150.png?simply_static_page=11
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-150x150.png?simply_static_page=11
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 13274 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/bair-150x150.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935da2b0f-FmrKlc.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/bair-150x150.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935da57d6-pOhyhN.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white.png?simply_static_page=12
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white.png?simply_static_page=12
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 56696 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/UCBerkeley_wordmark_white.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935da57d6-pOhyhN.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/UCBerkeley_wordmark_white.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/gail.gif
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935da8bf7-DhXM8C.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/gail.gif?simply_static_page=13
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/gail.gif?simply_static_page=13
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 4711979 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/gail.gif
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935da8bf7-DhXM8C.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/gail.gif
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-768x768.jpeg
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935db0ca9-61qgum.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-768x768.jpeg?simply_static_page=14
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-768x768.jpeg?simply_static_page=14
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 90040 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/1710316976879-768x768.jpeg
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935db0ca9-61qgum.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/1710316976879-768x768.jpeg
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-150x150.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935db362b-BCJI9p.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-150x150.png?simply_static_page=15
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-150x150.png?simply_static_page=15
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 7330 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-150x150.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935db362b-BCJI9p.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-150x150.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-192x192.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935db5f1a-VmB7I8.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-192x192.png?simply_static_page=16
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-192x192.png?simply_static_page=16
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 3013 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cropped-robot-192x192.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935db5f1a-VmB7I8.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cropped-robot-192x192.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935db8f51-ED3UnT.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale.png?simply_static_page=17
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale.png?simply_static_page=17
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 21636 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/Google_Scholar_logo_grayscale.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935db8f51-ED3UnT.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-300x300.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dbca98-GptO4J.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-300x300.png?simply_static_page=18
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-300x300.png?simply_static_page=18
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 20890 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/UCBerkeley_wordmark_white-300x300.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dbca98-GptO4J.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-300x300.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-300x300.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dc0b11-4m35JH.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-300x300.png?simply_static_page=19
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-300x300.png?simply_static_page=19
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 21531 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-300x300.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dc0b11-4m35JH.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-300x300.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/gail-150x150.gif
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dc47c4-ukybb7.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/gail-150x150.gif?simply_static_page=20
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/gail-150x150.gif?simply_static_page=20
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 14497 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/gail-150x150.gif
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dc47c4-ukybb7.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/gail-150x150.gif
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-768x513.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dc8786-Tqh7x1.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-768x513.png?simply_static_page=21
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-768x513.png?simply_static_page=21
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 708870 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation-768x513.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dc8786-Tqh7x1.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation-768x513.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-1024x1024.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dcd269-WWqYpg.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-1024x1024.png?simply_static_page=22
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-1024x1024.png?simply_static_page=22
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 83625 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-1024x1024.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dcd269-WWqYpg.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-1024x1024.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-300x300.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dd04d5-stFbEX.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-300x300.png?simply_static_page=23
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-300x300.png?simply_static_page=23
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 12303 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square-300x300.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dd04d5-stFbEX.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square-300x300.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-150x150.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dd3274-TxjRqA.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-150x150.png?simply_static_page=24
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-150x150.png?simply_static_page=24
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 4008 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-150x150.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dd3274-TxjRqA.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-150x150.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-768x768.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dd63e9-GWQIcT.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-768x768.png?simply_static_page=25
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-768x768.png?simply_static_page=25
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 61459 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-768x768.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dd63e9-GWQIcT.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-768x768.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1568x1568.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dd9eeb-XssHot.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1568x1568.png?simply_static_page=26
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1568x1568.png?simply_static_page=26
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 81486 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square-1568x1568.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dd9eeb-XssHot.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square-1568x1568.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-768x768.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935dddbf5-2Qk7pk.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/bair-768x768.png?simply_static_page=27
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-768x768.png?simply_static_page=27
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 127404 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/bair-768x768.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935dddbf5-2Qk7pk.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/bair-768x768.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1536x1536.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935de3488-tq7JSY.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1536x1536.png?simply_static_page=28
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1536x1536.png?simply_static_page=28
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 79618 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square-1536x1536.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935de3488-tq7JSY.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square-1536x1536.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935de79eb-Rn3wKC.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1.png?simply_static_page=29
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1.png?simply_static_page=29
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 68442 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935de79eb-Rn3wKC.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-300x300.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935deb9bc-EiqXCo.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/bair-300x300.png?simply_static_page=30
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-300x300.png?simply_static_page=30
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 36844 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/bair-300x300.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935deb9bc-EiqXCo.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/bair-300x300.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1568x882.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935def8d0-FN99pr.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1568x882.png?simply_static_page=31
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1568x882.png?simply_static_page=31
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:103] Filesize: 219088 bytes
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1568x882.png
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935def8d0-FN99pr.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1568x882.png
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/8838058.png
+[2024-04-21 04:17:33] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 94
+[2024-04-21 04:17:33] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935df38a8-hKno7z.tmp
+[2024-04-21 04:17:33] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/8838058.png?simply_static_page=32
+[2024-04-21 04:17:33] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/8838058.png?simply_static_page=32
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 15918 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/8838058.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935df38a8-hKno7z.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/8838058.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-300x169.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e02ffe-bjvnO1.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-300x169.png?simply_static_page=33
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-300x169.png?simply_static_page=33
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 97182 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-300x169.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e02ffe-bjvnO1.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-300x169.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e072a6-ulgrAT.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-150x150.png?simply_static_page=34
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-150x150.png?simply_static_page=34
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 52603 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e072a6-ulgrAT.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-150x150.gif
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e0b335-xeVJDu.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-150x150.gif?simply_static_page=35
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-150x150.gif?simply_static_page=35
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 4533 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/mathgpt-pro-150x150.gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e0b335-xeVJDu.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/mathgpt-pro-150x150.gif
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-2048x1152.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e0eb9e-TyoWGA.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-2048x1152.png?simply_static_page=36
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-2048x1152.png?simply_static_page=36
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 308886 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-2048x1152.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e0eb9e-TyoWGA.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-2048x1152.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e12fd4-PuKcMJ.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/bair.png?simply_static_page=37
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair.png?simply_static_page=37
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 85305 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/bair.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e12fd4-PuKcMJ.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/bair.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e1686b-teGiN3.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1024x1024.png?simply_static_page=38
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-1024x1024.png?simply_static_page=38
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 50071 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e1686b-teGiN3.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-300x300.jpeg
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e1a00d-IqWSH4.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-300x300.jpeg?simply_static_page=39
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-300x300.jpeg?simply_static_page=39
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 18794 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/1710316976879-300x300.jpeg
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e1a00d-IqWSH4.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/1710316976879-300x300.jpeg
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1536x1027.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e1d567-7RVWfZ.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1536x1027.png?simply_static_page=40
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1536x1027.png?simply_static_page=40
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 2393029 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation-1536x1027.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e1d567-7RVWfZ.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation-1536x1027.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover.gif
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e249f6-ItGrlB.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover.gif?simply_static_page=41
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover.gif?simply_static_page=41
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 12256043 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/lmpc_cover.gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e249f6-ItGrlB.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/lmpc_cover.gif
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879.jpeg
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e32c39-7N8Nbd.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879.jpeg?simply_static_page=42
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879.jpeg?simply_static_page=42
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 141838 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/1710316976879.jpeg
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e32c39-7N8Nbd.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/1710316976879.jpeg
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-300x300.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e358da-qIpdC6.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-300x300.png?simply_static_page=43
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-300x300.png?simply_static_page=43
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 17380 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-300x300.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e358da-qIpdC6.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-300x300.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1024x576.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:7; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e37cf5-EwxXVs.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1024x576.png?simply_static_page=44
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1024x576.png?simply_static_page=44
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 881825 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1024x576.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e37cf5-EwxXVs.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1024x576.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-300x201.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:6; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e3b66e-3jnWH2.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-300x201.png?simply_static_page=45
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-300x201.png?simply_static_page=45
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 131940 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation-300x201.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e3b66e-3jnWH2.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation-300x201.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:5; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e3de95-zuqMAY.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-150x150.png?simply_static_page=46
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-150x150.png?simply_static_page=46
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 9589 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e3de95-zuqMAY.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-1-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:4; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e40159-xn15li.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-150x150.png?simply_static_page=47
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-150x150.png?simply_static_page=47
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 4611 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/art_logo_dark-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e40159-xn15li.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/art_logo_dark-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:3; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e428c5-4ftiKK.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark.png?simply_static_page=48
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark.png?simply_static_page=48
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 72536 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/art_logo_dark.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e428c5-4ftiKK.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/art_logo_dark.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:2; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e45671-9eVTdt.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio.png?simply_static_page=49
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio.png?simply_static_page=49
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 353282 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e45671-9eVTdt.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-768x432.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:1; Total: 94
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e492fa-QJ8HUA.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-768x432.png?simply_static_page=50
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-768x432.png?simply_static_page=50
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 527638 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-768x432.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e492fa-QJ8HUA.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-768x432.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-task.php:44] Status message: [fetch_urls] Fetched 0 of 94 pages/files
+[2024-04-21 04:17:34] [class-ss-archive-creation-job.php:177] We're not done with the fetch_urls task yet
+[2024-04-21 04:17:34] [class-ss-archive-creation-job.php:132] Current task: fetch_urls
+[2024-04-21 04:17:34] [class-ss-archive-creation-job.php:149] Performing task: fetch_urls
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:55] Total pages: 107; Pages remaining: 57
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:50; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e4e512-SSfjDx.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/profile_square.png?simply_static_page=51
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square.png?simply_static_page=51
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 715673 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/profile_square.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e4e512-SSfjDx.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/profile_square.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-300x300.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:49; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e52326-cidbVQ.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-300x300.png?simply_static_page=52
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-300x300.png?simply_static_page=52
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 140547 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/profile_square-300x300.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e52326-cidbVQ.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/profile_square-300x300.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:48; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e54dc4-VsILc0.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-150x150.png?simply_static_page=53
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-150x150.png?simply_static_page=53
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 2472 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cropped-robot-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e54dc4-VsILc0.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cropped-robot-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-300x300.gif
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:47; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e57a2b-vtS5Kl.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-300x300.gif?simply_static_page=54
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro-300x300.gif?simply_static_page=54
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 11590 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/mathgpt-pro-300x300.gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e57a2b-vtS5Kl.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/mathgpt-pro-300x300.gif
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-180x180.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:46; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e5bb5b-LI2zHa.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-180x180.png?simply_static_page=55
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-180x180.png?simply_static_page=55
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 3023 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cropped-robot-180x180.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e5bb5b-LI2zHa.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cropped-robot-180x180.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-300x300.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:45; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e5fc7b-6gBopV.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-300x300.png?simply_static_page=56
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-300x300.png?simply_static_page=56
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 9297 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/art_logo_dark-300x300.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e5fc7b-6gBopV.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/art_logo_dark-300x300.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1536x1536.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:44; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e63aec-Akdr6j.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1536x1536.png?simply_static_page=57
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1536x1536.png?simply_static_page=57
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 63469 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/art_logo_dark-1536x1536.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e63aec-Akdr6j.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/art_logo_dark-1536x1536.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:43; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e67b1d-Wg97nj.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-150x150.png?simply_static_page=58
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-150x150.png?simply_static_page=58
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 10206 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e67b1d-Wg97nj.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-768x768.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:42; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e6bbee-e3NXjh.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-768x768.png?simply_static_page=59
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-768x768.png?simply_static_page=59
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 60003 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/UCBerkeley_wordmark_white-768x768.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e6bbee-e3NXjh.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/UCBerkeley_wordmark_white-768x768.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:41; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e6f787-urbgtd.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-150x150.png?simply_static_page=60
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-150x150.png?simply_static_page=60
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 8203 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e6f787-urbgtd.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/robot-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:40; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e737b0-yIFW1f.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/robot-150x150.png?simply_static_page=61
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/robot-150x150.png?simply_static_page=61
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 2132 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/robot-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e737b0-yIFW1f.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/robot-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-768x768.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:39; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e77591-zLSbdt.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-768x768.png?simply_static_page=62
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-768x768.png?simply_static_page=62
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 35600 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square-768x768.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e77591-zLSbdt.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square-768x768.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1024x685.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:38; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e7b36d-yLMqdU.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1024x685.png?simply_static_page=63
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation-1024x685.png?simply_static_page=63
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 1179978 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation-1024x685.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e7b36d-yLMqdU.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation-1024x685.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1024x576.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:37; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e7fde3-JARuod.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1024x576.png?simply_static_page=64
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1024x576.png?simply_static_page=64
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 124499 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1024x576.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e7fde3-JARuod.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1024x576.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:36; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e82d38-vJXtSl.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-150x150.png?simply_static_page=65
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-150x150.png?simply_static_page=65
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 5228 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e82d38-vJXtSl.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-150x150.gif
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:35; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e8644f-NtuLMB.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-150x150.gif?simply_static_page=66
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-150x150.gif?simply_static_page=66
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 12508 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/lmpc_cover-150x150.gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e8644f-NtuLMB.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/lmpc_cover-150x150.gif
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1024x577.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:34; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e8b3f4-SNz27z.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1024x577.png?simply_static_page=67
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1024x577.png?simply_static_page=67
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 133197 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1024x577.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e8b3f4-SNz27z.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-1024x577.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:33; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e8ffd6-Sh7ddA.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot.png?simply_static_page=68
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot.png?simply_static_page=68
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 7530 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cropped-robot.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e8ffd6-Sh7ddA.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cropped-robot.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1536x864.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:32; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e94146-rAzFrD.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1536x864.png?simply_static_page=69
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1536x864.png?simply_static_page=69
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 1800941 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1536x864.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e94146-rAzFrD.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-1536x864.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-2048x2048.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:31; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e99da8-TmU16s.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-2048x2048.png?simply_static_page=70
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/ucsd_square-2048x2048.png?simply_static_page=70
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 110107 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/ucsd_square-2048x2048.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e99da8-TmU16s.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/ucsd_square-2048x2048.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-300x300.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:30; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935e9dd9a-WM5EAB.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-300x300.png?simply_static_page=71
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-300x300.png?simply_static_page=71
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 8633 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-300x300.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935e9dd9a-WM5EAB.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/Google_Scholar_logo_grayscale-300x300.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-32x32.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:29; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ea12c8-lEoy8Y.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-32x32.png?simply_static_page=72
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-32x32.png?simply_static_page=72
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 694 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cropped-robot-32x32.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ea12c8-lEoy8Y.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cropped-robot-32x32.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-270x270.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:28; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ea4afc-ydY7O8.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-270x270.png?simply_static_page=73
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-270x270.png?simply_static_page=73
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 4650 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cropped-robot-270x270.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ea4afc-ydY7O8.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cropped-robot-270x270.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1536x864.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:27; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ea8276-ljBFKb.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1536x864.png?simply_static_page=74
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1536x864.png?simply_static_page=74
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 211638 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1536x864.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ea8276-ljBFKb.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-1536x864.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:26; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935eac5c9-eiKqfg.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r.png?simply_static_page=75
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r.png?simply_static_page=75
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 11960 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935eac5c9-eiKqfg.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:25; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935eb0b62-nTwLYD.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/bair-1024x1024.png?simply_static_page=76
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/bair-1024x1024.png?simply_static_page=76
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 179045 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/bair-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935eb0b62-nTwLYD.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/bair-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-768x768.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:24; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935eb4c5b-5d6mqh.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-768x768.png?simply_static_page=77
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-768x768.png?simply_static_page=77
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 53671 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-768x768.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935eb4c5b-5d6mqh.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/Autoware-Main-Logo-blackBG_square-768x768.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-2048x2048.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:23; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935eb88cb-uznkWp.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-2048x2048.png?simply_static_page=78
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-2048x2048.png?simply_static_page=78
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 88341 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/art_logo_dark-2048x2048.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935eb88cb-uznkWp.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/art_logo_dark-2048x2048.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:22; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ebcd7e-P0LO4u.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-150x150.png?simply_static_page=79
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-150x150.png?simply_static_page=79
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 52613 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ebcd7e-P0LO4u.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-300x300.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:21; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ec0b09-CrTvnB.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-300x300.png?simply_static_page=80
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-300x300.png?simply_static_page=80
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 22102 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-300x300.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ec0b09-CrTvnB.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cmu-wordmark-square-w-on-r-300x300.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-300x169.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:20; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ec4553-fM6cd0.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-300x169.png?simply_static_page=81
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-300x169.png?simply_static_page=81
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 21997 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-300x169.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ec4553-fM6cd0.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-300x169.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:19; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ec7d0c-a3Wt46.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-150x150.png?simply_static_page=82
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-150x150.png?simply_static_page=82
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 16672 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ec7d0c-a3Wt46.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking.drawio-2048x1664_16x9-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-300x169.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:18; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ecb3e8-anpsD3.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-300x169.png?simply_static_page=83
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-300x169.png?simply_static_page=83
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 24067 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-300x169.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ecb3e8-anpsD3.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/iros_late_braking-Page-1.drawio-300x169.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:17; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ece719-fheP1S.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation.png?simply_static_page=84
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation.png?simply_static_page=84
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 3226401 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ece719-fheP1S.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/robot.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:16; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ed4ec4-82uQQ6.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/robot.png?simply_static_page=85
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/robot.png?simply_static_page=85
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 4525 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/robot.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ed4ec4-82uQQ6.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/robot.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:15; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ed74ed-3liEEr.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1.png?simply_static_page=86
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1.png?simply_static_page=86
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 2727140 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ed74ed-3liEEr.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/sam_road_segmentation_16x9-2-1.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:14; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935edc147-dgFl5C.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1024x1024.png?simply_static_page=87
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/art_logo_dark-1024x1024.png?simply_static_page=87
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 37158 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/art_logo_dark-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935edc147-dgFl5C.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/art_logo_dark-1024x1024.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-150x150.jpeg
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:13; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ede940-7xv7hf.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-150x150.jpeg?simply_static_page=88
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/1710316976879-150x150.jpeg?simply_static_page=88
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 5973 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/jpeg
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/1710316976879-150x150.jpeg
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ede940-7xv7hf.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/1710316976879-150x150.jpeg
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-300x300.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:12; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ee16d7-nWUil0.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-300x300.png?simply_static_page=89
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/cropped-robot-300x300.png?simply_static_page=89
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 5233 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/cropped-robot-300x300.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ee16d7-nWUil0.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/cropped-robot-300x300.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-150x150.png
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:11; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ee4590-x8frnM.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-150x150.png?simply_static_page=90
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/profile_square-150x150.png?simply_static_page=90
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 43276 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/profile_square-150x150.png
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ee4590-x8frnM.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/profile_square-150x150.png
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro.gif
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:10; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935ee6eba-0IJS4S.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro.gif?simply_static_page=91
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/mathgpt-pro.gif?simply_static_page=91
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 2594512 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/mathgpt-pro.gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935ee6eba-0IJS4S.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/mathgpt-pro.gif
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-300x169.gif
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:9; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935eed5f6-KnHMCa.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-300x169.gif?simply_static_page=92
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/2024/04/lmpc_cover-300x169.gif?simply_static_page=92
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:103] Filesize: 24422 bytes
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:119] http_status_code: 200 | content_type: image/gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:233] New filename for static page: wp-content/uploads/2024/04/lmpc_cover-300x169.gif
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:143] Renaming temp file from /tmp/6624935eed5f6-KnHMCa.tmp to /home/haoru/Local Sites/haoru-xue---phd---berkeley-ai-research/app/public/wp-content/uploads/simply-static/temp-files/simply-static-1-1713673048/wp-content/uploads/2024/04/lmpc_cover-300x169.gif
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:137] Extracting URLs and replacing URLs in the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:144] Adding 0 URLs to the queue
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:155] We're saving this URL; keeping the static file
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:58] URL: http://haoru-xue.local/wp-content/uploads/simply-static/faef0e289063d19b96f6748b96dccd11-debug.txt
+[2024-04-21 04:17:34] [class-ss-task.php:58] [PAGES STATUS] Remaining:8; Total: 107
+[2024-04-21 04:17:34] [class-ss-fetch-urls-task.php:69] URL is not being excluded
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:94] Fetching URL and saving it to: /tmp/6624935eef8e7-Ou7p6M.tmp
+[2024-04-21 04:17:34] [class-ss-page-handler.php:38] URL Prepared:http://haoru-xue.local/wp-content/uploads/simply-static/faef0e289063d19b96f6748b96dccd11-debug.txt?simply_static_page=93
+[2024-04-21 04:17:34] [class-ss-url-fetcher.php:251] Fetching URL: http://haoru-xue.local/wp-content/uploads/simply-static/faef0e289063d19b96f6748b96dccd11-debug.txt?simply_static_page=93
